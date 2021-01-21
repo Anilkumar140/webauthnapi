@@ -62,5 +62,5 @@ navigator.credentials.create(createCredentialDefaultArgs)
     });
 }); 
 app.listen(port, function(){ 
-    console.log("server is running on port 3000"+port); 
+    console.log("server is running on port "+port); 
   }) 
